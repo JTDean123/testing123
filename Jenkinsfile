@@ -7,7 +7,7 @@ pipeline {
     // pipeline's stages.
     environment {
 	    region = "us-west-2"
-        docker_repo_uri = ""
+        docker_repo_uri = "001508866060.dkr.ecr.us-west-2.amazonaws.com/jenkins_test:latest"
 		task_def_arn = ""
         cluster = ""
         exec_role_arn = ""
